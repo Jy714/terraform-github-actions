@@ -2,14 +2,11 @@
 **/.terraform/*
 *.tfstate
 *.tfstate.*
-*.tfstate.backup
-*.tfplan
 crash.log
 crash.*.log
 
-# Terraform variable files
-*.tfvars
-*.tfvars.json
+# Keep Terraform dependency lock file
+!.terraform.lock.hcl
 
 # Override files
 override.tf
